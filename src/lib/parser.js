@@ -9,7 +9,8 @@ class Parser {
     this.dictionary = dictionary;
   }
 
-  lookup (key) {
+  lookup (string) {
+    let key = string.toLowerCase().normalize();
     let results = [];
     let headwords = {};
 

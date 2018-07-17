@@ -28,6 +28,7 @@ class Lookup extends Component {
 
   render () {
     let word = this.props.match.params.word || '';
+
     return (
       <div>
         <input className="form-control mb-4" type="text" value={word} onChange={this.handleChange} placeholder="Enter word ..." />
