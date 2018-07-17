@@ -36,7 +36,7 @@ class Lookup extends Component {
   render () {
     return (
       <div>
-        <input className="form-control mb-4" type="text" value={this.state.value} onChange={this.handleChange} />
+        <input className="form-control mb-4" type="text" value={this.state.value} onChange={this.handleChange} placeholder="Enter word ..." />
         {this.renderEntries()}
       </div>
     );

@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
-import './App.css';
 import Lookup from './Lookup';
 
 class App extends Component {
   render() {
     return (
-      <div className="App pr-5 pl-5">
-        <header className="pt-5 pb-2">
-          <h1>Liddell-Scott-Jones Greek-English Lexicon</h1>
-        </header>
-        <h4 className="pb-2">
-          Look up a word
-        </h4>
+      <div className="container text-center">
+        <h1 className="h3 pt-4 mb-1 font-weight-normal">
+          Liddell-Scott-Jones Greek-English Lexicon
+        </h1>
+        <h5 className="h5 mb-3 font-weight-normal">
+          Type a word with Greek or Latin characters below
+        </h5>
         <Lookup />
       </div>
     );
