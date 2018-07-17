@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 
-import lsj from './dictionaries/lsj.json';
 import Parser from './lib/parser';
 
-const LSJParser = new Parser(lsj);
+const LSJParser = new Parser();
 
 class Lookup extends Component {
   constructor (props) {

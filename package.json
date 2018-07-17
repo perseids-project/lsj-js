@@ -9,6 +9,7 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
+    "build-dictionary": "node ./scripts/build-dictionary.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
