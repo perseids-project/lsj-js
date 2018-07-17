@@ -29,14 +29,14 @@ class Lookup extends Component {
 
   renderEntries () {
     return this.state.entries.map((entry) =>
-      <p key={entry.headword} dangerouslySetInnerHTML={{ __html: entry.definition }} />
+      <p className="text-left" key={entry.headword} dangerouslySetInnerHTML={{ __html: entry.definition }} />
     );
   }
 
   render () {
     return (
       <div>
-        <input type="text" value={this.state.value} onChange={this.handleChange} />
+        <input className="form-control mb-4" type="text" value={this.state.value} onChange={this.handleChange} />
         {this.renderEntries()}
       </div>
     );
