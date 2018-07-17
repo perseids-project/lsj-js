@@ -37,4 +37,3 @@ Update the file `vendor/lsj.json` with any changes then run `yarn run build-dict
 ## Deploying a new version to github.io
 
 `yarn deploy`
-

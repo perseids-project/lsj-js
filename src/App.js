@@ -18,7 +18,7 @@ class App extends Component {
             </h5>
           </header>
           <main>
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
               <Route path="/:word?" component={Lookup} />
             </Router>
           </main>
