@@ -8,7 +8,7 @@
     "babel-core": "6.26.0",
     "babel-eslint": "7.2.3",
     "babel-jest": "20.0.3",
-    "babel-loader": "7.1.2",
+    "babel-loader": "^7.1.5",
     "babel-preset-react-app": "^3.1.1",
     "babel-runtime": "6.26.0",
     "bootstrap": "4",
@@ -52,7 +52,7 @@
     "deploy": "gh-pages -d build",
     "build-dictionary": "node ./scripts/build-dictionary.js",
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
+    "build": "GENERATE_SOURCEMAP=false node --max_old_space_size=4096 scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
   },
   "devDependencies": {
