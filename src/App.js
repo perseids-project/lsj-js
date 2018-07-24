@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import Lookup from './Lookup';
+import AsyncLookup from './AsyncLookup';
 import Footer from './Footer';
 
 class App extends Component {
@@ -18,9 +18,11 @@ class App extends Component {
             </h5>
           </header>
           <main>
-            <Router basename={process.env.PUBLIC_URL}>
-              <Route path="/:word?" component={Lookup} />
-            </Router>
+            <div className="mb-4">
+              <Router basename={process.env.PUBLIC_URL}>
+                <Route path="/:word?" component={AsyncLookup} />
+              </Router>
+            </div>
           </main>
         </div>
         <footer>
