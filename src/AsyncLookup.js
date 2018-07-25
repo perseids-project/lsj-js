@@ -7,14 +7,18 @@ import Lookup from './Lookup';
 
 const DICTIONARY_VERSION = 'dictionary-0.0.1';
 
+const cacheDictionary = (loaded) => {
+  let dictionary = loaded.default;
+
+  localForage.clear().then(() => localForage.setItem(DICTIONARY_VERSION, dictionary));
+
+  return dictionary;
+};
+
 const WaitForDownload = Loadable({
-  loader: () => import('./lib/Dictionary'),
+  loader: () => import('./lib/Dictionary').then(cacheDictionary),
   loading: () => <Loading text={'Downloading dictionary...'} />,
-  render (loaded, props) {
-    let dictionary = loaded.default;
-
-    localForage.clear().then(() => localForage.setItem(DICTIONARY_VERSION, dictionary));
-
+  render (dictionary, props) {
     return <Lookup {...props} dictionary={dictionary} />
   }
 });
