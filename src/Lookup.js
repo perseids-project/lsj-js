@@ -30,7 +30,7 @@ class Lookup extends Component {
 
     return (
       <div className="mt-4">
-        <input className="form-control mb-4" type="text" value={word} onChange={this.handleChange} placeholder="Enter word ..." />
+        <input className="form-control mb-4" autoFocus type="text" value={word} onChange={this.handleChange} placeholder="Enter word ..." />
         {this.renderEntries(word)}
       </div>
     );
