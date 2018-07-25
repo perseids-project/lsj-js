@@ -1,18 +1,14 @@
-import dictionary from '../dictionaries/dictionary.json';
-import exact from '../dictionaries/exact-match.json';
-import greek from '../dictionaries/greek-match.json';
-import latin from '../dictionaries/latin-match.json';
-
 class Parser {
-  constructor() {
-    this.matchers = [exact, greek, latin];
-    this.dictionary = dictionary;
+  constructor(dictionary) {
+    this.matchers = [dictionary.exact, dictionary.greek, dictionary.latin];
+    this.dictionary = dictionary.dictionary;
   }
 
   lookup (string) {
     let key = string.toLowerCase().normalize();
     let results = [];
     let headwords = {};
+    let dictionary = this.dictionary;
 
     this.matchers.forEach((matcher) => {
       if (matcher[key]) {

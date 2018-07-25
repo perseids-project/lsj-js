@@ -7,7 +7,7 @@ class Loading extends Component {
     return (
       <div className="mt-2">
         <div className="loading-spinner mb-2"></div>
-        Loading dictionary...
+        {this.props.text}
       </div>
     );
   }

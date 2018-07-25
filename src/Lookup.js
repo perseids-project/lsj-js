@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 
-import Parser from './lib/parser';
-
-const LSJParser = new Parser();
+import Parser from './lib/Parser';
 
 class Lookup extends Component {
   constructor (props) {
     super(props);
 
+    this.parser = new Parser(this.props.dictionary);
     this.handleChange = this.handleChange.bind(this);
     this.renderEntries = this.renderEntries.bind(this);
   }
@@ -19,7 +18,7 @@ class Lookup extends Component {
   }
 
   renderEntries (word) {
-    let entries = LSJParser.lookup(word)
+    let entries = this.parser.lookup(word)
 
     return entries.map((entry) =>
       <p className="text-left" key={entry.headword} dangerouslySetInnerHTML={{ __html: entry.definition }} />
