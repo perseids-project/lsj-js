@@ -57,7 +57,7 @@ class Lookup extends Component {
     return (
       <div className="mt-4">
         {/* eslint-disable-next-line jsx-a11y/no-autofocus */}
-        <input className="form-control mb-4" autoFocus type="text" value={word} onChange={this.handleChange} placeholder="Enter word ..." />
+        <input className="form-control mb-4" autoFocus type="text" value={word} onChange={this.handleChange} placeholder="Enter word..." aria-label="lookup" />
         {this.renderEntries(word)}
       </div>
     );

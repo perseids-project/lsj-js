@@ -33,6 +33,7 @@
     "gh-pages": "^1.2.0",
     "html-webpack-plugin": "2.29.0",
     "jest": "20.0.4",
+    "jest-dom": "^1.11.0",
     "localforage": "^1.7.2",
     "object-assign": "4.1.1",
     "postcss-flexbugs-fixes": "3.2.0",
@@ -45,6 +46,7 @@
     "react-dom": "^16.4.1",
     "react-loadable": "^5.4.0",
     "react-router-dom": "^4.3.1",
+    "react-testing-library": "^4.1.4",
     "resolve": "1.6.0",
     "style-loader": "0.19.0",
     "sw-precache-webpack-plugin": "0.11.4",
@@ -71,6 +73,7 @@
     "setupFiles": [
       "<rootDir>/config/polyfills.js"
     ],
+    "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js",
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}",
       "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,mjs}"
@@ -86,7 +89,12 @@
       "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"
     ],
     "moduleNameMapper": {
-      "^react-native$": "react-native-web"
+      "^react-native$": "react-native-web",
+      "localforage": "<rootDir>/mocks/localforageMock.js",
+      "../dictionaries/dictionary.json": "<rootDir>/mocks/dictionary.json",
+      "../dictionaries/exact-match.json": "<rootDir>/mocks/exact-match.json",
+      "../dictionaries/greek-match.json": "<rootDir>/mocks/greek-match.json",
+      "../dictionaries/latin-match.json": "<rootDir>/mocks/latin-match.json"
     },
     "moduleFileExtensions": [
       "web.js",
