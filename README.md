@@ -3,6 +3,11 @@
 This is the entire Liddell-Scott-Jones Greek-English Lexicon in JavaScript.
 You should be able to use this web app with or without internet access once you load it once.
 
+## Source
+
+The LSJ text used in is based on
+[https://archive.org/details/Lsj--LiddellScott](https://archive.org/details/Lsj--LiddellScott).
+
 ## Try it Out
 
 [https://perseids-project.github.io/lsj-js/](https://perseids-project.github.io/lsj-js/)
@@ -45,8 +50,3 @@ Update the file `vendor/lsj.json` with any changes then run `yarn run build-dict
 ## Deploying a new version to github.io
 
 `yarn deploy`
-
-## Sources
-
-The LSJ text used in is based on
-[https://archive.org/details/Lsj--LiddellScott](https://archive.org/details/Lsj--LiddellScott).

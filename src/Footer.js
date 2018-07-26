@@ -7,7 +7,7 @@ const Footer = () => (
     <div className="container">
       <span className="text-muted">
         <a href="https://github.com/perseids-project/lsj-js" target="_blank" rel="noopener noreferrer">
-          GitHub
+          About
         </a>
         {' '}
         &bull;
