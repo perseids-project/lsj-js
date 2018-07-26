@@ -34,6 +34,14 @@ Update the file `vendor/lsj.json` with any changes then run `yarn run build-dict
 
 `yarn start`
 
+## Running tests
+
+`yarn test`
+
+## Linting the code
+
+`yarn lint`
+
 ## Deploying a new version to github.io
 
 `yarn deploy`
