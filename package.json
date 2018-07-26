@@ -18,16 +18,19 @@
     "css-loader": "0.28.7",
     "dotenv": "4.0.0",
     "dotenv-expand": "4.2.0",
-    "eslint": "4.10.0",
+    "eslint": "^5.2.0",
+    "eslint-config-airbnb": "^17.0.0",
     "eslint-config-react-app": "^2.1.0",
     "eslint-loader": "1.9.0",
     "eslint-plugin-flowtype": "2.39.1",
-    "eslint-plugin-import": "2.8.0",
-    "eslint-plugin-jsx-a11y": "5.1.1",
-    "eslint-plugin-react": "7.4.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.18.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
     "extract-text-webpack-plugin": "3.0.2",
     "file-loader": "1.1.5",
     "fs-extra": "3.0.1",
+    "gh-pages": "^1.2.0",
     "html-webpack-plugin": "2.29.0",
     "jest": "20.0.4",
     "localforage": "^1.7.2",
@@ -35,6 +38,7 @@
     "postcss-flexbugs-fixes": "3.2.0",
     "postcss-loader": "2.0.8",
     "promise": "8.0.1",
+    "prop-types": "^15.6.2",
     "raf": "3.4.0",
     "react": "^16.4.1",
     "react-dev-utils": "^5.0.1",
@@ -57,10 +61,8 @@
     "build-dictionary": "node ./scripts/build-dictionary.js",
     "start": "node scripts/start.js",
     "build": "GENERATE_SOURCEMAP=false node --max_old_space_size=4096 scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
-  },
-  "devDependencies": {
-    "gh-pages": "^1.2.0"
+    "test": "node scripts/test.js --env=jsdom",
+    "lint": "eslint --ext=js --ext=jsx ."
   },
   "jest": {
     "collectCoverageFrom": [

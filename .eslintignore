@@ -1,0 +1,7 @@
+src/index.js
+src/registerServiceWorker.js
+src/setupTests.js
+src/dictionaries/
+build/
+config/
+scripts/

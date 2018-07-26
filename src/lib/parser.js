@@ -4,11 +4,11 @@ class Parser {
     this.dictionary = dictionary.dictionary;
   }
 
-  lookup (string) {
-    let key = string.toLowerCase().normalize();
-    let results = [];
-    let headwords = {};
-    let dictionary = this.dictionary;
+  lookup(string) {
+    const key = string.toLowerCase().normalize();
+    const results = [];
+    const headwords = {};
+    const { dictionary } = this;
 
     this.matchers.forEach((matcher) => {
       if (matcher[key]) {
@@ -16,7 +16,7 @@ class Parser {
           if (!headwords[headword]) {
             headwords[headword] = true;
 
-            results.push({ headword: headword, definition: dictionary[headword] });
+            results.push({ headword, definition: dictionary[headword] });
           }
         });
       }

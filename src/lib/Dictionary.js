@@ -8,6 +8,6 @@ const Dictionary = {
   exact,
   greek,
   latin,
-}
+};
 
 export default Dictionary;

@@ -1,16 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 import './Loading.css';
 
-class Loading extends Component {
-  render () {
-    return (
-      <div className="mt-2">
-        <div className="loading-spinner mb-2"></div>
-        {this.props.text}
-      </div>
-    );
-  }
-}
+const Loading = ({ text }) => (
+  <div className="mt-2">
+    <div className="loading-spinner mb-2" />
+    {text}
+  </div>
+);
+
+Loading.propTypes = {
+  text: PropTypes.string.isRequired,
+};
 
 export default Loading;
