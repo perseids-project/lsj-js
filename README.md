@@ -5,7 +5,7 @@ You should be able to use this web app with or without internet access once you 
 
 ## Source
 
-The LSJ text used in is based on
+The LSJ text used is based on
 [https://archive.org/details/Lsj--LiddellScott](https://archive.org/details/Lsj--LiddellScott).
 
 ## Try it Out
