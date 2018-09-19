@@ -5,7 +5,7 @@ import localForage from 'localforage';
 import Loading from './Loading';
 import Lookup from './Lookup';
 
-const DICTIONARY_VERSION = 'dictionary-0.0.1';
+const DICTIONARY_VERSION = 'dictionary-0.0.2';
 
 const cacheDictionary = (loaded) => {
   const dictionary = loaded.default;
