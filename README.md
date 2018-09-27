@@ -39,6 +39,16 @@ Update the file `vendor/lsj.json` with any changes then run `yarn run build-dict
 
 `yarn start`
 
+## Building for deployment
+
+Before creating a production build you need to know the path where it will be accessed.
+Then run the command `PUBLIC_URL='./path/of/app' yarn build`.
+This will generate a set of static files in the `build/` directory that you can serve.
+
+For example, if you want to deploy it at `www.example.com/` then run `PUBLIC_URL='./' yarn build`.
+If you want to deploy it at `www.example.com/lexica/lsj` then run
+`PUBLIC_URL='./lexica/lsj' yarn build`.
+
 ## Running tests
 
 `yarn test`
