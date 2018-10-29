@@ -1,7 +1,7 @@
 # LSJ JS
 
 This is the entire Liddell-Scott-Jones Greek-English Lexicon in JavaScript.
-You should be able to use this web app with or without internet access once you load it once.
+You should be able to use this web app with or without internet access after you load it once.
 
 ## Source
 
