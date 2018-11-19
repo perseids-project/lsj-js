@@ -4974,6 +4974,13 @@ obuf@^1.0.0, obuf@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
 
+octicons@^8.1.3:
+  version "8.1.3"
+  resolved "https://registry.yarnpkg.com/octicons/-/octicons-8.1.3.tgz#a6780e4025b714be9629ac407bd8b06e6360b9ad"
+  integrity sha512-i4niyiKz5NF+I66XtvJRK+P5LeDcDKNksa/ch8+pAONK8ru1PopD4cXf2pMWraOZTqiRIaR4uDSUIkT35pb24w==
+  dependencies:
+    object-assign "^4.1.1"
+
 on-finished@~2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/on-finished/-/on-finished-2.3.0.tgz#20f1336481b083cd75337992a16971aa2d906947"
@@ -5220,6 +5227,13 @@ pbkdf2@^3.0.3:
 performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
+
+perseids-react-components@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/perseids-react-components/-/perseids-react-components-0.0.2.tgz#3d718b519042efdc04d74ced36e08e65908419f0"
+  integrity sha512-IMQt3YcE5YnnG/gb5k6/d9o3ivT1nfYNaw6oyK9M8e7XOh5ABYY3qv7GfgXVNh7He7+JFCH6VCOgx+3XUgClAQ==
+  dependencies:
+    octicons "^8.1.3"
 
 pify@^2.0.0, pify@^2.3.0:
   version "2.3.0"

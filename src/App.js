@@ -1,19 +1,21 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { PerseidsHeader, PerseidsFooter } from 'perseids-react-components';
+
+import 'perseids-react-components/build/css/index.css';
 
 import AsyncLookup from './AsyncLookup';
-import Footer from './Footer';
 
 const App = () => (
   <React.Fragment>
+    <PerseidsHeader>
+      LSJ Lexicon
+    </PerseidsHeader>
     <div className="container text-center">
       <header>
         <h1 className="h3 pt-4 mb-1 font-weight-normal">
-          Liddell-Scott-Jones Greek-English Lexicon (beta)
+          Liddell-Scott-Jones Greek-English Lexicon
         </h1>
-        <h5 className="h5 mb-3 font-weight-normal">
-          Type a word with Greek or Latin characters below
-        </h5>
       </header>
       <main>
         <div className="mb-4">
@@ -23,9 +25,10 @@ const App = () => (
         </div>
       </main>
     </div>
-    <footer>
-      <Footer />
-    </footer>
+    <PerseidsFooter
+      github="https://github.com/perseids-project/lsj-js"
+      report="https://github.com/perseids-project/lsj-js/issues"
+    />
   </React.Fragment>
 );
 

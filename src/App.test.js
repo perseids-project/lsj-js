@@ -11,7 +11,7 @@ it('renders without crashing', () => {
 it('renders title', () => {
   const { getByText } = render(<App />);
 
-  expect(getByText('Liddell-Scott-Jones Greek-English Lexicon (beta)')).toBeInTheDocument();
+  expect(getByText('Liddell-Scott-Jones Greek-English Lexicon')).toBeInTheDocument();
 });
 
 it('looks up a word', () => {
