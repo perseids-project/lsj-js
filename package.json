@@ -1,6 +1,6 @@
 {
   "name": "lsj-js",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": true,
   "homepage": "https://perseids-project.github.io/lsj-js/",
   "dependencies": {
@@ -36,7 +36,7 @@
     "jest-dom": "^1.11.0",
     "localforage": "^1.7.2",
     "object-assign": "4.1.1",
-    "perseids-react-components": "^0.0.2",
+    "perseids-react-components": "^0.0.6",
     "postcss-flexbugs-fixes": "3.2.0",
     "postcss-loader": "2.0.8",
     "promise": "8.0.1",

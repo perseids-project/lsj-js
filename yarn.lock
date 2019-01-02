@@ -5228,10 +5228,10 @@ performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
 
-perseids-react-components@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/perseids-react-components/-/perseids-react-components-0.0.2.tgz#3d718b519042efdc04d74ced36e08e65908419f0"
-  integrity sha512-IMQt3YcE5YnnG/gb5k6/d9o3ivT1nfYNaw6oyK9M8e7XOh5ABYY3qv7GfgXVNh7He7+JFCH6VCOgx+3XUgClAQ==
+perseids-react-components@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/perseids-react-components/-/perseids-react-components-0.0.6.tgz#0bd28dacab57b539eadf4195c721374fe05cca86"
+  integrity sha512-vz1o8OCB9gwrOUcRe17AqeHoNeOzfYUv47pEfcEl2wPj97wP2PMBlySih2mlSJMY86Lwg/SwvfM+o3OS9v4/fA==
   dependencies:
     octicons "^8.1.3"
 
