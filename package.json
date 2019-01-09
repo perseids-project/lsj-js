@@ -59,8 +59,11 @@
     "yarn": "^1.7.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy-github": "yarn run build",
+    "deploy-github": "yarn run cleanup && gh-pages -d build",
+    "predeploy-perseids": "PUBLIC_URL='/lsj' yarn run build",
+    "deploy-perseids": "yarn run cleanup && gh-pages -d build -b perseids-build",
+    "cleanup": "rm -rf node_modules/gh-pages/.cache",
     "build-dictionary": "node ./scripts/build-dictionary.js",
     "start": "node scripts/start.js",
     "build": "GENERATE_SOURCEMAP=false node --max_old_space_size=4096 scripts/build.js",
