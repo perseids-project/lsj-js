@@ -8,8 +8,8 @@ self.__precacheManifest = [
     "url": "/lsj/static/js/main.f07ac9b8.chunk.js"
   },
   {
-    "revision": "59fdc46cd17803cdcba5",
-    "url": "/lsj/static/js/2.59fdc46c.chunk.js"
+    "revision": "160bf63c427c2b82ceec",
+    "url": "/lsj/static/js/2.160bf63c.chunk.js"
   },
   {
     "revision": "8536ce698e8c30b37b13",
@@ -20,11 +20,11 @@ self.__precacheManifest = [
     "url": "/lsj/static/css/main.75322932.chunk.css"
   },
   {
-    "revision": "59fdc46cd17803cdcba5",
-    "url": "/lsj/static/css/2.b6bc2dcc.chunk.css"
+    "revision": "160bf63c427c2b82ceec",
+    "url": "/lsj/static/css/2.dccb6878.chunk.css"
   },
   {
-    "revision": "c60f5874485e50188fa3ea7175ab9204",
+    "revision": "33b0dd097c1ecb1c415f68616de2da64",
     "url": "/lsj/index.html"
   }
 ];
