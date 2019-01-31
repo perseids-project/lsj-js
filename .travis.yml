@@ -1,10 +1,11 @@
 language: node_js
 node_js:
-  - "v10.5.0"
+  - v11.8.0
 cache:
   directories:
   - node_modules
 script:
   - yarn install
   - yarn lint
+  - yarn audit
   - yarn test --coverage
