@@ -4,7 +4,7 @@ import { PerseidsHeader, PerseidsFooter } from 'perseids-react-components';
 
 import 'perseids-react-components/build/css/index.css';
 
-import AsyncLookup from './AsyncLookup';
+import AsyncLookup from '../AsyncLookup';
 
 const App = () => (
   <React.Fragment>
