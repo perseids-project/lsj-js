@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import Parser from './lib/Parser';
+import Parser from '../../lib/Parser';
 
 const dictionaryPropType = PropTypes.shape({
   dictionary: PropTypes.object.isRequired,

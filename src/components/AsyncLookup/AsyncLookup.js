@@ -2,8 +2,8 @@ import React from 'react';
 import Loadable from 'react-loadable';
 import localForage from 'localforage';
 
-import Loading from './Loading';
-import Lookup from './Lookup';
+import Loading from '../Loading';
+import Lookup from '../Lookup';
 
 const DICTIONARY_VERSION = 'dictionary-0.0.3';
 
@@ -24,7 +24,7 @@ const lookupDictionary = () => (
 );
 
 const WaitForDownload = Loadable({
-  loader: () => import('./lib/Dictionary').then(cacheDictionary),
+  loader: () => import('../../lib/Dictionary').then(cacheDictionary),
   loading: () => <Loading text="Downloading dictionary..." />,
   render(dictionary, props) {
     return <Lookup {...props} dictionary={dictionary} />;
