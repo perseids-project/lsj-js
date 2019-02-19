@@ -10,7 +10,7 @@ The LSJ text used is based on
 
 ## Try it Out
 
-[https://perseids-project.github.io/lsj-js/](https://perseids-project.github.io/lsj-js/)
+[https://apps.perseids.org/lsj/](https://apps.perseids.org/lsj/)
 
 ### How to Use
 
