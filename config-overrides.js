@@ -8,6 +8,7 @@ module.exports = {
       '../dictionaries/exact-match.json': '<rootDir>/mocks/exact-match.json',
       '../dictionaries/greek-match.json': '<rootDir>/mocks/greek-match.json',
       '../dictionaries/latin-match.json': '<rootDir>/mocks/latin-match.json',
+      '\\.(css|less)$': 'identity-obj-proxy',
     };
 
     return config;
