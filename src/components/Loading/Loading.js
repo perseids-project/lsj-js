@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import './Loading.css';
+import styles from './Loading.module.css';
 
 const Loading = ({ text }) => (
   <div className="mt-2">
-    <div className="loading-spinner mb-2" />
+    <div className={`${styles.loadingSpinner} mb-2`} />
     {text}
   </div>
 );

@@ -1,4 +1,4 @@
-.loading-spinner {
+.loadingSpinner {
   animation: spin 3.5s linear infinite;
   border-bottom: 14px solid #f3f3f3;
   border-left: 14px solid #f3f3f3;
