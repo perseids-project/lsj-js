@@ -9,7 +9,7 @@ it('renders without crashing', () => {
     greek: {},
     latin: {},
   };
-  const history = { push() { } };
+  const history = { push: () => { } };
   const match = { params: { word: 'hello' } };
   const div = window.document.createElement('div');
   render(
