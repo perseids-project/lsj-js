@@ -5,6 +5,7 @@ import { PerseidsHeader, PerseidsFooter } from 'perseids-react-components';
 import 'perseids-react-components/build/css/index.css';
 
 import AsyncLookup from '../AsyncLookup';
+import Preface from '../Preface';
 
 const App = () => (
   <React.Fragment>
@@ -20,7 +21,11 @@ const App = () => (
       <main>
         <div className="mb-4">
           <Router basename={process.env.PUBLIC_URL}>
-            <Route path="/:word?" component={AsyncLookup} />
+            <switch>
+              <Route exact path="/w/:word?" component={AsyncLookup} />
+              <Route exact path="/p/preface" component={Preface} />
+              <Route exact path="/:word?" component={AsyncLookup} />
+            </switch>
           </Router>
         </div>
       </main>
