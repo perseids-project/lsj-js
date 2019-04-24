@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { PerseidsHeader, PerseidsFooter } from 'perseids-react-components';
 
 import 'perseids-react-components/build/css/index.css';
@@ -21,11 +21,11 @@ const App = () => (
       <main>
         <div className="mb-4">
           <Router basename={process.env.PUBLIC_URL}>
-            <switch>
-              <Route exact path="/w/:word?" component={AsyncLookup} />
+            <Switch>
+              <Route exact path="/l/:word?" component={AsyncLookup} />
               <Route exact path="/p/preface" component={Preface} />
               <Route exact path="/:word?" component={AsyncLookup} />
-            </switch>
+            </Switch>
           </Router>
         </div>
       </main>
