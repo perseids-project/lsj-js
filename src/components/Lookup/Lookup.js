@@ -41,7 +41,7 @@ class Lookup extends Component {
     const { value } = event.target;
     const { history } = this.props;
 
-    history.push(`/${value}`);
+    history.push(`/l/${value}`);
   }
 
   renderEntries(word) {
