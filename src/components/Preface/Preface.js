@@ -1,5 +1,4 @@
 import React from 'react';
-import { UncontrolledTooltip } from 'reactstrap';
 import styles from './Preface.module.css';
 
 const Preface = () => (
@@ -78,7 +77,7 @@ of
       word ἄγαλμα would run to fifty volumes and attain to completion in 1889 was signally
       falsified. The work labours under the serious disadvantage of retaining the etymological
       arrangement of Stephanus,
-      <sup id="footnote1" className="btn-link">1</sup>
+      <sup> <a name="link-footnote-1" href="#footnote-1">1</a></sup>
       {' '}
 which forces the
       reader to make a laborious search for any compound or derived word.
@@ -102,7 +101,7 @@ Review
 )
       on the ground of its unwieldy bulk; but the association of the brothers Wilhelm and Ludwig
       Dindorf at an early stage of the work
-      <sup id="footnote2" className="btn-link">2</sup>
+      <sup> <a name="link-footnote-2" href="#footnote-2">2</a></sup>
       {' '}
 enabled
       it to be carried through in thirty-four years, and its vast collections of material, though
@@ -198,7 +197,7 @@ and Roehl&apos;s
       submitted on behalf of the British Academy a scheme for the compilation of a new Thesaurus of
       Ancient Greek up to the early part of the seventh century A.D.; and after a discussion in
       which the difficulty and magnitude of the enterprise were emphasized
-      <sup id="footnote3" className="btn-link">3</sup>
+      <sup> <a name="link-footnote-3" href="#footnote-3">3</a></sup>
       a Committee of Inquiry, consisting of Sir R. C. Jebb, Professors Diels, Gomperz, Heiberg,
       Krumbacher, Leo, and M. Perrot, with power to co-opt, was appointed to consider method, means,
       and preliminary questions in connexion with the proposal. In 1905 Prof. P. Kretschmer was
@@ -220,7 +219,7 @@ and Roehl&apos;s
       <u>Neue Jahrbücher</u>
       {' '}
 for 1905,
-      <sup id="footnote4" className="btn-link">4</sup>
+      <sup> <a name="link-footnote-4" href="#footnote-4">4</a></sup>
       {' '}
 in the
       course of which he wrote as follows: “Any one who bears in mind the bulk of Greek literature,
@@ -299,7 +298,7 @@ was finally abandoned, a
       {' '}
       <u>Byzantinische Zeitschrift</u>
 ,
-      <sup id="footnote6" className="btn-link">6</sup>
+      <sup> <a name="link-footnote-6" href="#footnote-6">6</a></sup>
 ;
       criticized the project, and advised the Greek scholars to confine themselves in the first
       instance to the Modern tongue; and though this recommendation was not, as it seems, formally
@@ -355,7 +354,7 @@ Medico-Chirurgical
       lexicographical purposes the whole of the extant remains of Greek medical literature, and
       there is scarcely a page in the Lexicon which does not bear
       traces of his handiwork.
-      <sup id="footnote7a" className="btn-link">7</sup>
+      <sup> <a name="link-footnote-7" href="#footnote-7">7</a></sup>
 
     </p>
     <p>
@@ -370,7 +369,7 @@ Medico-Chirurgical
       {' '}
       <u>Historia Plantarum</u>
       .
-      <sup id="footnote8a" className="btn-link">8</sup>
+     <sup> <a name="link-footnote-8" href="#footnote-8">8</a></sup>
 
     </p>
     <p>
@@ -435,7 +434,7 @@ of Ptolemy and other astronomical writings, and thereby greatly increasing the
       ” the main branches of Greek Literature, Epic, Lyric, Tragic, Comic, Philosophical,
       ” Historical, Mathematical and Technical, Medical, Grammatical, and Jewish-Christian, each of
       ” which, he thought, would equal the Latin Thesaurus in bulk!
-      <sup id="footnote5" className="btn-link">5</sup>
+      <sup> <a name="link-footnote-5" href="#footnote-5">5</a></sup>
 
     </p>
     <p>
@@ -497,7 +496,7 @@ of Ptolemy and other astronomical writings, and thereby greatly increasing the
       Oxford and has worked untiringly on this difficult subject. He has read for lexicographical
       purposes the whole of the extant remains of Greek medical literature, and there is scarcely a
       page in the Lexicon which does not bear traces of his handiwork.
-      <sup id="footnote7b" className="btn-link">7</sup>
+      <sup> <a name="link-footnote-7a" href="#footnote-7">7</a></sup>
 
     </p>
     <p>
@@ -510,8 +509,8 @@ of Ptolemy and other astronomical writings, and thereby greatly increasing the
       names at my disposal, and his identifications are not likely to be disputed. A number of them
       had already been communicated to Sir Arthur Hort for use in his edition of Theophrastus&apos;
       Historia Plantarum.
-      <sup id="footnote8b" className="btn-link">8</sup>
-
+      <sup> <a name="link-footnote-8a" href="#footnote-8">8</a></sup>
+      
     </p>
     <p>
 
@@ -565,7 +564,7 @@ of Ptolemy and other astronomical writings, and thereby greatly increasing the
       Martin of Geneva. Mr. H. Idris Bell of the British Museum has supplied valuable notes on
       recent papyrological publications and on unedited documents in the British Museum
       Collection.
-      <sup id="footnote9" className="btn-link">9</sup>
+      <sup> <a name="link-footnote-9" href="#footnote-9">9</a></sup>
       {' '}
 For the vocabulary of the
       Inscriptions little could be done by the editor except to revise the existing references to
@@ -575,7 +574,7 @@ For the vocabulary of the
 -no light task, seeing that so many of the
       stones have been re-examined and may be studied in improved texts- and to supplement these
       corrected citations by illustrations from collections such as those of Dittenberger
-      <sup id="footnote10" className="btn-link">10</sup>
+      <sup> <a name="link-footnote-10" href="#footnote-10">10</a></sup>
        or Michel or the
       {' '}
       <u>
@@ -614,7 +613,7 @@ Inscriptiones Graecae ad res Romanas
 
       Turning to Literature proper, it soon became clear that while the references to Plato and
       Aristotle needed careful revision and some amplification,
-      <sup id="footnote11" className="btn-link">11</sup>
+      <sup> <a name="link-footnote-11" href="#footnote-11">11</a></sup>
        the terminology of the later schools of Philosophy had never been adequately
       treated by lexicographers. Neither Usener&apos;s
       {' '}
@@ -662,7 +661,7 @@ possesses an index; and Mr. (now Professor) J. L. Stocks
       {' '}
 of Plato. As a matter of fact, this word can
       be quoted from ten authors besides Proclus.
-      <sup id="footnote12" className="btn-link">12</sup>
+      <sup> <a name="link-footnote-12" href="#footnote-12">12</a></sup>
       Professor Burnet, who in his edition of the
       {' '}
       {' '}
@@ -684,7 +683,7 @@ of Plotinus, the abstruse work of Damascius
       belong to this school of thought, and Mr. W. D. Ross kindly undertook to supply notes on their
       vocabulary with the aid of the excellent indices of the Berlin edition and with the
       collaboration of certain of the Oxford translators;
-      <sup id="footnote13" className="btn-link">13</sup>
+      <sup> <a name="link-footnote-13" href="#footnote-13">13</a></sup>
       the bulk of this work, however, fell upon his own shoulders.
 
     </p>
@@ -789,7 +788,7 @@ was the main
       bulk of the Lexicon has been saved partly by abbreviations and compendious methods of
       printing, partly by certain limitations of scope. Liddell and Scott, though they originally
       intended their work to be a Lexicon of Classical Greek,
-      <sup id="footnote14" className="btn-link">14</sup>
+      <sup> <a name="link-footnote-14" href="#footnote-14">14</a></sup>
        admitted a number of words from Ecclesiastical and Byzantine writers, for many
       of which no reference was given except the symbols Eccl.&apos; and &apos;Byz.&apos; After due
       consideration it has been decided to exclude both Patristic and Byzantine literature from the
@@ -801,7 +800,7 @@ was the main
       moreover, in preparation a Lexicon of Patristic Greek (including Christian poetry and
       inscriptions) under the editorship of Dr. Darwell Stone, which will, it is hoped, be printed
       when the publication of the present work is concluded.
-      <sup id="footnote15" className="btn-link">15</sup>
+      <sup> <a name="link-footnote-15" href="#footnote-15">15</a></sup>
       For the Byzantine vocabulary we shall have to wait for the Modern Greek Lexicon
       to which allusion has already been made, but it will hardly be denied that some time- limit
       was called for, and this has been fixed roughly at A. D. 600 in order to include the
@@ -824,7 +823,7 @@ by Wilhelm Crönert, of which three parts, extending
       forward to the gradual expansion of his work as it proceeds (after the manner of Passow) by
       means of a fuller treatment of post-Classical Greek. Cronert&apos;s work has been criticized
       by Kretschmer,
-      <sup id="footnote16" className="btn-link">16</sup>
+      <sup> <a name="link-footnote-16" href="#footnote-16">16</a></sup>
       {' '}
 who regards it as too
       ambitious in scope and unlikely to be completed within a reasonable period of time, and would
@@ -840,7 +839,7 @@ which must remain for a long while to come a pious aspiration. It may be hoped
       possess some compensating advantages denied to the larger Lexicon of Crönert, such as the
       provision of exact references for every word cited from an author and fuller and more
       representative quotations from the later literature, e.g. from such authors as Plotinus.
-      <sup id="footnote17" className="btn-link">17</sup>
+      <sup> <a name="link-footnote-17" href="#footnote-17">17</a></sup>
 
     </p>
     <p>
@@ -861,11 +860,11 @@ which must remain for a long while to come a pious aspiration. It may be hoped
       {' '}
 furnish more accurate
       readings of Papyri and necessitate changes or deletions,
-      <sup id="footnote18" className="btn-link">18</sup>
+      <sup> <a name="link-footnote-18" href="#footnote-18">18</a></sup>
        and I must place on record my gratitude to Professor Wilcken for kindly
       undertaking to verify and correct references to documents in the yet unpublished portions of
       his work,
-      <sup id="footnote19" className="btn-link">19</sup>
+      <sup> <a name="link-footnote-19" href="#footnote-19">19</a></sup>
       {' '}
 as also to Mr. J. U. Powell for
       permitting me to use and refer to the proofs of his
@@ -891,170 +890,141 @@ and of Herodas in which they have collaborated. The
       comity of nations.
 
     </p>
-    <p className="float-right">
+    <p className="text-right">
       H. STUART JONES.
     </p>
 
-    <UncontrolledTooltip placement="top" target="footnote1">
-    In 1812 Passow himself had advocated the retention of Stephanus&apos; arrangement; but he
-     fortunately abandoned it in favour of the alphabetical principle.
-    </UncontrolledTooltip>
-    <UncontrolledTooltip placement="top" target="footnote2">
-    Their names appeared on the title-page of Part IV (containing β), which appeared concurrently
-     with the second half of α.
-    </UncontrolledTooltip>
-    <UncontrolledTooltip placement="top" target="footnote3">
-    Krumbacher was anxious to include Byzantine Greek in the ambit of the new Thesaurus.
-    </UncontrolledTooltip>
-    <UncontrolledTooltip placement="top" target="footnote4">
-    p. 692&semi; Diels had already expressed his views in his Elementum (1899), p. ix sqq.
-    </UncontrolledTooltip>
-    <UncontrolledTooltip placement="top" target="footnote5">
-    A similar suggestion had been made more than half a century earlier by F. A. Wolf in his
-      <u>Vorlesungen über die Altertumswissenschaft</u>
-      {' '}
-i p. 187.
-    </UncontrolledTooltip>
-    <UncontrolledTooltip placement="top" target="footnote6">
-    xviii (1909), 708 ff.
-    </UncontrolledTooltip>
-    <UncontrolledTooltip placement="top" target="footnote7a">
-    Dr. Withington has also found time to deal with the Alchemists and Astrologers, including the
-     extensive collections of the Catalogus Codicum Astrologorum.
-    </UncontrolledTooltip>
-    <UncontrolledTooltip placement="top" target="footnote7b">
-    Dr. Withington has also found time to deal with the Alchemists and Astrologers, including the
-    extensive collections of the Catalogus Codicum Astrologorum.
-    </UncontrolledTooltip>
-    <UncontrolledTooltip placement="top" target="footnote8a">
-    Sir Arthur Hort has himself rendered aid in the difficult task of interpreting the Greek of
-    Theophrastus.
-    </UncontrolledTooltip>
-    <UncontrolledTooltip placement="top" target="footnote8b">
-    Sir Arthur Hort has himself rendered aid in the difficult task of interpreting the Greek of
-    Theophrastus.
-    </UncontrolledTooltip>
-    <UncontrolledTooltip placement="top" target="footnote9">
-    The first part of Preisigke&apos;s
-      {' '}
-      <u>Wörterbuch der griechischen Papyrusurkunden</u>
-      {' '}
-appeared after the sheets of Part I had been printed off, but has been used for Addenda.
-    </UncontrolledTooltip>
-    <UncontrolledTooltip placement="top" target="footnote10">
-    The appearance of a third edition of the
-      {' '}
-      <u>Sylloge Inscriptionum Graecarum</u>
+    <hr />
 
+    <p>
+      <a name="footnote-1" href="#link-footnote-1">1.</a>
+      {' '}In 1812 Passow himself had advocated the retention of Stephanus&apos; arrangement; but he
+       fortunately abandoned it in favour of the alphabetical principle.
+    </p>
+
+    <p>
+      <a name="footnote-2" href="#link-footnote-2">2.</a>
+      {' '}Their names appeared on the title-page of Part IV (containing β), which appeared concurrently
+     with the second half of α.
+    </p>
+
+    <p>
+      <a name="footnote-3" href="#link-footnote-3">3.</a>
+      {' '}Krumbacher was anxious to include Byzantine Greek in the ambit of the new Thesaurus.
+    </p>
+
+    <p>
+      <a name="footnote-4" href="#link-footnote-4">4.</a>
+      {' '}p. 692&semi; Diels had already expressed his views in his Elementum (1899), p. ix sqq.
+    </p>
+
+    <p>
+      <a name="footnote-5" href="#link-footnote-5">5.</a>
+      {' '}A similar suggestion had been made more than half a century earlier by F. A. Wolf in his
+      <u>Vorlesungen über die Altertumswissenschaft</u>{' '}i p. 187.
+    </p>
+
+    <p>
+      <a name="footnote-6" href="#link-footnote-6">6.</a>
+      {' '}xviii (1909), 708 ff.
+    </p>    
+
+    <p>
+      <a name="footnote-7" href="#link-footnote-7">7.</a>
+      {' '}Dr. Withington has also found time to deal with the Alchemists and Astrologers, including
+       the extensive collections of the Catalogus Codicum Astrologorum.
+    </p>    
+    
+    <p>
+      <a name="footnote-8" href="#link-footnote-8">8.</a>
+      {' '}Sir Arthur Hort has himself rendered aid in the difficult task of interpreting the Greek
+      of Theophrastus.
+    </p>    
+    
+    <p>
+      <a name="footnote-9" href="#link-footnote-9">9.</a>
+      {' '}The first part of Preisigke&apos;s{' '}<u>Wörterbuch der griechischen Papyrusurkunden</u>
+      {' '}appeared after the sheets of Part I had been printed off, but has been used for Addenda.
+    </p>    
+    
+    <p>
+      <a name="footnote-10" href="#link-footnote-10">10.</a>
+      {' '}The appearance of a third edition of the{' '}<u>Sylloge Inscriptionum Graecarum</u>
       , completed in 1924, has necessitated the alteration of a large number of references. The
       pitfalls which beset the path of the lexicographer may be exemplified by the fact that on
        the first revision the word ἀπόπλωσις was illustrated by SIG2929.127, and this was altered
         by the concordance-table to SIG3685.127: fortunately it was discovered in time that the
         word had disappeared in the later text!
+    </p>    
+    
+    <p>
+      <a name="footnote-11" href="#link-footnote-11">11.</a>
+      {' '}Bonitz&apos;s{' '}<u>Index to Aristotle</u>{' '}and Ast&apos;s{' '}<u>Lexicon Platonicum</u>
+      {' '}are no longer all-sufficing guides. Such words as μορυχώτερον (which should be read in Arist.
+      {' '}<u>Metaph</u>. 987a10) and τεράμων (which there is reason to think once stood in the text of Pl.
+      {' '}<u>Sph</u>. 221a, though it is not mentioned by Burnet) are addenda.
+    </p>      
 
-    </UncontrolledTooltip>
-    <UncontrolledTooltip placement="top" target="footnote11">
-    Bonitz&apos;s
-      {' '}
-      <u>Index to Aristotle</u>
-      {' '}
-and Ast&apos;s
-      {' '}
-      <u>Lexicon Platonicum</u>
-      {' '}
-are no longer all-sufficing guides. Such words as μορυχώτερον (which should be read in Arist.
-      {' '}
-      <u>Metaph</u>
-. 987a10) and τεράμων (which there is reason to think once stood in the text of Pl.
-      {' '}
-      <u>Sph</u>
-. 221a, though it is not mentioned by Burnet) are addenda.
-    </UncontrolledTooltip>
-    <UncontrolledTooltip placement="top" target="footnote12">
-    D. S. 10. 6, Gal. 4. 763, Alex. Aphr.
-      {' '}
-      <u>de An</u>
-. 27. 18, Porph.
-      {' '}
-      <u>Abst</u>
-. 4. 16, Herm. ap. Stob. 1. 49. 69 (tit.), Sallust. 20, Hieronym.
-      {' '}
-      <u>Ep</u>
-. 124. 4,
-      {' '}
-      <u>Theol. Ar</u>
-. 40, Serv. ad Verg.
-      {' '}
-      <u>Aen</u>
-. 3. 68, Sch. Iamb.
-      {' '}
-      <u>Protr</u>
-. 14.
-    </UncontrolledTooltip>
-    <UncontrolledTooltip placement="top" target="footnote13">
-    Two of these, Mr. Erwin Webster and Mr. Gibson, lost their lives in the Great War.
-    </UncontrolledTooltip>
-    <UncontrolledTooltip placement="top" target="footnote14">
-    This appears from letters written in 1877 by Dean Liddell to Mr. Falconer Madan
+    <p>
+      <a name="footnote-12" href="#link-footnote-12">12.</a>
+      {' '}D. S. 10. 6, Gal. 4. 763, Alex. Aphr.{' '}<u>de An</u>. 27. 18, Porph.{' '}
+      <u>Abst</u>. 4. 16, Herm. ap. Stob. 1. 49. 69 (tit.), Sallust. 20, Hieronym.{' '}
+      <u>Ep</u>. 124. 4,{' '}<u>Theol. Ar</u>. 40, Serv. ad Verg.{' '}<u>Aen</u>. 3. 68, Sch. Iamb.
+      {' '}<u>Protr</u>. 14.
+    </p>  
+
+    <p>
+      <a name="footnote-13" href="#link-footnote-13">13.</a>
+      {' '}Two of these, Mr. Erwin Webster and Mr. Gibson, lost their lives in the Great War.
+    </p>  
+
+    <p>
+      <a name="footnote-14" href="#link-footnote-14">14.</a>
+      {' '}This appears from letters written in 1877 by Dean Liddell to Mr. Falconer Madan
      (who kindly placed them at my disposal) with reference to J. E. B. Mayor&apos;s well-known
       articles on Greek Lexicography in the
-      {' '}
-      <u>Journal of Philology</u>
-.
-    </UncontrolledTooltip>
-    <UncontrolledTooltip placement="top" target="footnote15">
-    Christian authors are of course frequently cited as the source of classical quotations, and
-     such treatises as those of Porphyry and Julian
-      {' '}
-      <u>Against the Christians</u>
-      {' '}
-are reconstructed from Patristic writings.
-    </UncontrolledTooltip>
-    <UncontrolledTooltip placement="top" target="footnote16">
-    In
-      {' '}
-      <u>Glotta</u>
-      {' '}
-vi pp. 300 f.
-    </UncontrolledTooltip>
-    <UncontrolledTooltip placement="top" target="footnote17">
-    A comparison of the art. ἀμφίβιος in Crönert-Passow with that of the present work will
-    illustrate the difference of method. Crönert, on the other hand, gives the lexicographical
-    tradition of the ancient grammarians very fully. For this it would not have been possible to
-    find room; nor, indeed, has it yet been thoroughly sifted and critically edited. The deaths of
-    Wentzel, Leopold Cohn, and Egenolff, and the migration of Bethe and Reitzenstein to more
-    succulent pastures, have brought the two great enterprises of the firm of Teubner-the
-      {' '}
-      <u>Corpus Grammaticorum Graecorum</u>
-      {' '}
-and that of the ancient Lexica—to a premature end. De Stefani&apos;s edition of the
-      {' '}
-      <u>Etymologicum Gudianum</u>
-      {' '}
-is, however, in course of appearing, and it is understood that Drachmann is editing the remains of
- the Glossary of Cyril&apos; (see Pauly-Wissowa,
-      {' '}
-      <u>Realencyclopädie</u>
-      {' '}
-xii 175).
-    </UncontrolledTooltip>
-    <UncontrolledTooltip placement="top" target="footnote18">
-    For example, ἀντιπατάσσω was cited by me from
-      {' '}
-      <u>PPar</u>
-. 40, but the reference was deleted from the proof when it was found that in
-      {' '}
-      <u>UPZ</u>
-      {' '}
-12 Wilcken read ὠνηλάται ὄντες for ἀντιπατάσσοντες!
-    </UncontrolledTooltip>
-    <UncontrolledTooltip placement="top" target="footnote19">
-    This should cause little inconvenience to the user of the Lexicon, as Part I of
-      {' '}
-      <u>UPZ</u>
-      {' '}
-contains concordance-tables for the whole work.
-    </UncontrolledTooltip>
+      {' '}<u>Journal of Philology</u>.
+    </p>  
+
+    <p>
+      <a name="footnote-15" href="#link-footnote-15">15.</a>
+      {' '}Christian authors are of course frequently cited as the source of classical quotations, and
+      such treatises as those of Porphyry and Julian{' '}<u>Against the Christians</u>{' '}
+      are reconstructed from Patristic writings.
+    </p>  
+
+    <p>
+      <a name="footnote-16" href="#link-footnote-16">16.</a>
+      {' '}In{' '}<u>Glotta</u>{' '}vi pp. 300 f.
+    </p>  
+
+    <p>
+      <a name="footnote-17" href="#link-footnote-17">17.</a>
+      {' '}A comparison of the art. ἀμφίβιος in Crönert-Passow with that of the present work will
+      illustrate the difference of method. Crönert, on the other hand, gives the lexicographical
+      tradition of the ancient grammarians very fully. For this it would not have been possible to
+      find room; nor, indeed, has it yet been thoroughly sifted and critically edited. The deaths of
+      Wentzel, Leopold Cohn, and Egenolff, and the migration of Bethe and Reitzenstein to more
+      succulent pastures, have brought the two great enterprises of the firm of Teubner-the
+      {' '}<u>Corpus Grammaticorum Graecorum</u>{' '}and that of the ancient Lexica—to a premature
+       end. De Stefani&apos;s edition of the{' '}<u>Etymologicum Gudianum</u>{' '}is, however, in
+        course of appearing, and it is understood that Drachmann is editing the remains of
+       the Glossary of Cyril&apos; (see Pauly-Wissowa,{' '}<u>Realencyclopädie</u>{' '}xii 175).
+    </p>  
+
+    <p>
+      <a name="footnote-18" href="#link-footnote-18">18.</a>
+      {' '}For example, ἀντιπατάσσω was cited by me from{' '}<u>PPar</u>. 40, but the reference
+       was deleted from the proof when it was found that in{' '}<u>UPZ</u>{' '}
+      12 Wilcken read ὠνηλάται ὄντες for ἀντιπατάσσοντες!
+    </p>  
+
+    <p>
+      <a name="footnote-18" href="#link-footnote-18">18.</a>
+      {' '}This should cause little inconvenience to the user of the Lexicon, as Part I of
+      {' '}<u>UPZ</u>{' '}contains concordance-tables for the whole work.
+    </p>  
+
   </div>
 );
 
