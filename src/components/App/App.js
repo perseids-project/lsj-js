@@ -1,6 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { PerseidsHeader, PerseidsFooter } from 'perseids-react-components';
+import Postscript from '../Postscript';
+import ListOfAbbreviations from '../ListOfAbbreviations';
+import GenListAbbre from '../GenListAbbre';
+import PapyPub from '../PapyPub';
+import Authors from '../Authors';
 
 import 'perseids-react-components/build/css/index.css';
 
@@ -24,6 +29,11 @@ const App = () => (
             <Switch>
               <Route exact path="/l/:word?" component={AsyncLookup} />
               <Route exact path="/p/preface" component={Preface} />
+              <Route exact path="/p/genlistabbre" component={GenListAbbre} />
+              <Route exact path="/p/postscript" component={Postscript} />
+              <Route exact path="/p/authors" component={Authors} />
+              <Route exact path="/p/papypub" component={PapyPub} />
+              <Route exact path="/p/listofabbreviations" component={ListOfAbbreviations} />
               <Route exact path="/:word?" component={AsyncLookup} />
             </Switch>
           </Router>
