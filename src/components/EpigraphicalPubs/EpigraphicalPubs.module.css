@@ -1,0 +1,8 @@
+.titleContainer p, table {
+  text-align: left;
+}
+
+.listContainer li {
+  margin: 0;
+  padding: 0;
+}

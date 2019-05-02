@@ -7,6 +7,7 @@ import 'perseids-react-components/build/css/index.css';
 import AsyncLookup from '../AsyncLookup';
 import Preface from '../Preface';
 import ReferenceMethods from '../ReferenceMethods';
+import EpigraphicalPubs from '../EpigraphicalPubs';
 
 const App = () => (
   <React.Fragment>
@@ -26,6 +27,7 @@ const App = () => (
               <Route exact path="/l/:word?" component={AsyncLookup} />
               <Route exact path="/p/preface" component={Preface} />
               <Route exact path="/p/methods" component={ReferenceMethods} />
+	      <Route exact path="/p/Epigraphical" component={EpigraphicalPubs} />
               <Route exact path="/:word?" component={AsyncLookup} />
             </Switch>
           </Router>
