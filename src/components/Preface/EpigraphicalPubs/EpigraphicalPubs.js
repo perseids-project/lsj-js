@@ -1,14 +1,13 @@
-import React from 'react';
-import styles from './EpigraphicalPubs.module.css';
+import React, { Fragment } from 'react';
 
 const EpigraphicalPubs = () => (
-  <div className={`${styles.titleContainer}`}>
+  <Fragment>
     <h5 className="pt-3">
       <strong>Epigraphical Publications</strong>
     </h5>
-
-    <ul>
-      <div className={`${styles.listContainer}`}>
+    <br />
+    <div className="text-left">
+      <ul>
         <li>
           <u>Anatolian Studies = Anatolian Studies presented to Sir W. M. Ramsay,</u>{' '}
           Manchester 1923.
@@ -471,9 +470,9 @@ const EpigraphicalPubs = () => (
         <li>
           Wood{' '}<u>Ephesus</u>{' '}= J. T. Wood,{' '}<u>Discoveries at Ephesus,</u>{' '}London 1877.
         </li>
-      </div>
-    </ul>
-  </div>
+      </ul>
+    </div>
+  </Fragment>
 );
 
 export default EpigraphicalPubs;

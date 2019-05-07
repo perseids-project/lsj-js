@@ -5,6 +5,7 @@ import { PerseidsHeader, PerseidsFooter } from 'perseids-react-components';
 import 'perseids-react-components/build/css/index.css';
 
 import AsyncLookup from '../AsyncLookup';
+import Periodicals from '../Preface/Periodicals';
 import Preface from '../Preface';
 import ReferenceMethods from '../Preface/ReferenceMethods';
 import EpigraphicalPubs from '../Preface/EpigraphicalPubs';
@@ -25,6 +26,7 @@ const App = () => (
           <Router basename={process.env.PUBLIC_URL}>
             <Switch>
               <Route exact path="/l/:word?" component={AsyncLookup} />
+              <Route exact path="/p/periodicals" component={Periodicals} />
               <Route exact path="/p/preface" component={Preface} />
               <Route exact path="/p/methods" component={ReferenceMethods} />
               <Route exact path="/p/Epigraphical" component={EpigraphicalPubs} />
