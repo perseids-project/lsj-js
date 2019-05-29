@@ -23,6 +23,15 @@
       "globals": {
         "window": true
       }
+    },
+    {
+      "files": [
+        "src/components/Preface/**/*.js"
+      ],
+      "rules": {
+        "react/jsx-one-expression-per-line": "off",
+        "max-len": "off"
+      }
     }
   ]
 }
