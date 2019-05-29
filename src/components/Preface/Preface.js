@@ -369,7 +369,7 @@ Medico-Chirurgical
       {' '}
       <u>Historia Plantarum</u>
       .
-     <sup> <a name="link-footnote-8" href="#footnote-8">8</a></sup>
+      <sup> <a name="link-footnote-8" href="#footnote-8">8</a></sup>
 
     </p>
     <p>
@@ -510,7 +510,7 @@ of Ptolemy and other astronomical writings, and thereby greatly increasing the
       had already been communicated to Sir Arthur Hort for use in his edition of Theophrastus&apos;
       Historia Plantarum.
       <sup> <a name="link-footnote-8a" href="#footnote-8">8</a></sup>
-      
+
     </p>
     <p>
 
@@ -927,26 +927,26 @@ and of Herodas in which they have collaborated. The
     <p>
       <a name="footnote-6" href="#link-footnote-6">6.</a>
       {' '}xviii (1909), 708 ff.
-    </p>    
+    </p>
 
     <p>
       <a name="footnote-7" href="#link-footnote-7">7.</a>
       {' '}Dr. Withington has also found time to deal with the Alchemists and Astrologers, including
        the extensive collections of the Catalogus Codicum Astrologorum.
-    </p>    
-    
+    </p>
+
     <p>
       <a name="footnote-8" href="#link-footnote-8">8.</a>
       {' '}Sir Arthur Hort has himself rendered aid in the difficult task of interpreting the Greek
       of Theophrastus.
-    </p>    
-    
+    </p>
+
     <p>
       <a name="footnote-9" href="#link-footnote-9">9.</a>
       {' '}The first part of Preisigke&apos;s{' '}<u>Wörterbuch der griechischen Papyrusurkunden</u>
       {' '}appeared after the sheets of Part I had been printed off, but has been used for Addenda.
-    </p>    
-    
+    </p>
+
     <p>
       <a name="footnote-10" href="#link-footnote-10">10.</a>
       {' '}The appearance of a third edition of the{' '}<u>Sylloge Inscriptionum Graecarum</u>
@@ -955,15 +955,15 @@ and of Herodas in which they have collaborated. The
        the first revision the word ἀπόπλωσις was illustrated by SIG2929.127, and this was altered
         by the concordance-table to SIG3685.127: fortunately it was discovered in time that the
         word had disappeared in the later text!
-    </p>    
-    
+    </p>
+
     <p>
       <a name="footnote-11" href="#link-footnote-11">11.</a>
       {' '}Bonitz&apos;s{' '}<u>Index to Aristotle</u>{' '}and Ast&apos;s{' '}<u>Lexicon Platonicum</u>
       {' '}are no longer all-sufficing guides. Such words as μορυχώτερον (which should be read in Arist.
       {' '}<u>Metaph</u>. 987a10) and τεράμων (which there is reason to think once stood in the text of Pl.
       {' '}<u>Sph</u>. 221a, though it is not mentioned by Burnet) are addenda.
-    </p>      
+    </p>
 
     <p>
       <a name="footnote-12" href="#link-footnote-12">12.</a>
@@ -971,12 +971,12 @@ and of Herodas in which they have collaborated. The
       <u>Abst</u>. 4. 16, Herm. ap. Stob. 1. 49. 69 (tit.), Sallust. 20, Hieronym.{' '}
       <u>Ep</u>. 124. 4,{' '}<u>Theol. Ar</u>. 40, Serv. ad Verg.{' '}<u>Aen</u>. 3. 68, Sch. Iamb.
       {' '}<u>Protr</u>. 14.
-    </p>  
+    </p>
 
     <p>
       <a name="footnote-13" href="#link-footnote-13">13.</a>
       {' '}Two of these, Mr. Erwin Webster and Mr. Gibson, lost their lives in the Great War.
-    </p>  
+    </p>
 
     <p>
       <a name="footnote-14" href="#link-footnote-14">14.</a>
@@ -984,19 +984,19 @@ and of Herodas in which they have collaborated. The
      (who kindly placed them at my disposal) with reference to J. E. B. Mayor&apos;s well-known
       articles on Greek Lexicography in the
       {' '}<u>Journal of Philology</u>.
-    </p>  
+    </p>
 
     <p>
       <a name="footnote-15" href="#link-footnote-15">15.</a>
       {' '}Christian authors are of course frequently cited as the source of classical quotations, and
       such treatises as those of Porphyry and Julian{' '}<u>Against the Christians</u>{' '}
       are reconstructed from Patristic writings.
-    </p>  
+    </p>
 
     <p>
       <a name="footnote-16" href="#link-footnote-16">16.</a>
       {' '}In{' '}<u>Glotta</u>{' '}vi pp. 300 f.
-    </p>  
+    </p>
 
     <p>
       <a name="footnote-17" href="#link-footnote-17">17.</a>
@@ -1010,20 +1010,20 @@ and of Herodas in which they have collaborated. The
        end. De Stefani&apos;s edition of the{' '}<u>Etymologicum Gudianum</u>{' '}is, however, in
         course of appearing, and it is understood that Drachmann is editing the remains of
        the Glossary of Cyril&apos; (see Pauly-Wissowa,{' '}<u>Realencyclopädie</u>{' '}xii 175).
-    </p>  
+    </p>
 
     <p>
       <a name="footnote-18" href="#link-footnote-18">18.</a>
       {' '}For example, ἀντιπατάσσω was cited by me from{' '}<u>PPar</u>. 40, but the reference
        was deleted from the proof when it was found that in{' '}<u>UPZ</u>{' '}
       12 Wilcken read ὠνηλάται ὄντες for ἀντιπατάσσοντες!
-    </p>  
+    </p>
 
     <p>
       <a name="footnote-18" href="#link-footnote-18">18.</a>
       {' '}This should cause little inconvenience to the user of the Lexicon, as Part I of
       {' '}<u>UPZ</u>{' '}contains concordance-tables for the whole work.
-    </p>  
+    </p>
 
   </div>
 );
