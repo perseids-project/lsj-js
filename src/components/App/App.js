@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { PerseidsHeader, PerseidsFooter } from 'perseids-react-components';
-import Postscript from '../Postscript';
-import ListOfAbbreviations from '../ListOfAbbreviations';
-import GenListAbbre from '../GenListAbbre';
-import PapyPub from '../PapyPub';
-import Authors from '../Authors';
+import Postscript from '../Preface/Postscript';
+import ListOfAbbreviations from '../Preface/ListOfAbbreviations';
+import GenListAbbre from '../Preface/GenListAbbre';
+import PapyPub from '../Preface/PapyPub';
+import Authors from '../Preface/Authors';
 
 import 'perseids-react-components/build/css/index.css';
 
