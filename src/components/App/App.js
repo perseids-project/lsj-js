@@ -6,8 +6,8 @@ import 'perseids-react-components/build/css/index.css';
 
 import AsyncLookup from '../AsyncLookup';
 import Preface from '../Preface';
-import ReferenceMethods from '../ReferenceMethods';
-import EpigraphicalPubs from '../EpigraphicalPubs';
+import ReferenceMethods from '../Preface/ReferenceMethods';
+import EpigraphicalPubs from '../Preface/EpigraphicalPubs';
 
 const App = () => (
   <React.Fragment>
