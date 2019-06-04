@@ -93,11 +93,11 @@ const Authors = () => (
       <li><strong>Amphis</strong>&nbsp;Comicus iv B.C. Ed. T. Kock,&nbsp;<u>CAF</u>&nbsp;ii p. 236.</li>
       <li><strong>Anacharsis</strong>&nbsp;Epistolographus [Anach.] i B.C. (?) Ed. R. Hercher,&nbsp;<u>Epistolographi,</u>&nbsp;p. 102.</li>
       <li><strong>Anacreon</strong>&nbsp;Lyricus [Anacr.] vi B.C. Ed. T. Bergk,&nbsp;<u>PLG</u>&nbsp;iii p. 253.</li>
-      <li><strong>Anacreontea</strong>&nbsp;[<u>Anacreont.</u>] Ed. C. Preisendanz, Leipzig (T.) 1912; cited by T. Bergk's numeration,&nbsp;<u>PLG</u>&nbsp;iii p. 296.</li>
+      <li><strong>Anacreontea</strong>&nbsp;[<u>Anacreont.</u>] Ed. C. Preisendanz, Leipzig (T.) 1912; cited by T. Bergk&apos;s numeration,&nbsp;<u>PLG</u>&nbsp;iii p. 296.</li>
       <li><strong>Ananius</strong>&nbsp;Lyricus [Anan.] vi B.C. Ed. T. Bergk,&nbsp;<u>PLG</u>&nbsp;ii p. 501.</li>
       <li><strong>Anaxagoras</strong>&nbsp;Philosophus [Anaxag.]. v B.C. Ed. H. Diels,&nbsp;<u>Vorsokr.</u>&nbsp;i p. 375.</li>
       <li><strong>Anaxandrides</strong>&nbsp;Comicus [Anaxandr.] iv B.C. Ed. T. Kock,&nbsp;<u>CAF</u>&nbsp;ii p. 135; suppl. J. Demiańczuk,&nbsp;<u>Supp. Com.</u>&nbsp;p. 7.</li>
-      <li><strong>Anaxandrides</strong>&nbsp;Historicus [Anaxandr.Hist.] iii B.C. (?) Ed. C. M&uuml;ller,&nbsp;<u>FHG</u>&nbsp;iii p. 106 (perperam 'Alexandrides').</li>
+      <li><strong>Anaxandrides</strong>&nbsp;Historicus [Anaxandr.Hist.] iii B.C. (?) Ed. C. M&uuml;ller,&nbsp;<u>FHG</u>&nbsp;iii p. 106 (perperam &apos;Alexandrides&apos;).</li>
       <li><strong>Anaxarchus</strong>&nbsp;Philosophus [Anaxarch.] iv B.C. Ed. H. Diels,&nbsp;<u>Vorsokr.</u>&nbsp;ii p. 144.</li>
       <li><strong>Anaxilas</strong>&nbsp;Comicus [Anaxil.] iv B.C. Ed. T. Kock,&nbsp;<u>CAF</u>&nbsp;ii p. 264.</li>
       <li><strong>Anaximander</strong>&nbsp;Historicus [Anaximand.Hist.] iv B.C. Ed. F. Jacoby,&nbsp;<u>FGrH</u>&nbsp;i p. 159.</li>
@@ -159,7 +159,7 @@ const Authors = () => (
       <li><strong>Apollodorus Carystius</strong>&nbsp;Comicus [Apollod.Car.] iv/iii B.C. Ed. T. Kock,&nbsp;<u>CAF</u>&nbsp;iii p. 280; suppl. J. Demiańczuk,&nbsp;<u>Supp. Com.</u>&nbsp;p. 8.</li>
       <li><strong>Apollodorus Gelous</strong>&nbsp;Comicus [Apollod.Gel.] iv/iii B.C. Ed. T. Kock,&nbsp;<u>CAF</u>&nbsp;iii p. 278.</li>
       <li><strong>Apollodorus</strong>&nbsp;Mythographus [Apollod.] i A.D. (?)&nbsp;<u>Bibliotheca,</u>&nbsp;ed. R. Wagner,&nbsp;<u>Mythographi Graeci</u>&nbsp;i, Leipzig (T.) 1894; cited without title.&nbsp;<u>Epitome,</u>&nbsp;ed. R. Wagner, op. cit., p. 173. [<u>Epit.</u>]&nbsp;<u>Fragmenta Historica,</u>&nbsp;ed. C. M&uuml;ller,&nbsp;<u>FHG</u>&nbsp;i p. 428. [Hist.]</li>
-      <li><strong>Apollodorus Damascenus</strong>&nbsp;Mechanicus [Apollod.] ii A.D.&nbsp;<span className="greek">*poliorkhtika/,</span>&nbsp;Ed. R. Schneider,&nbsp;<u>Abhandlungen der G&ouml;ttinger Gesellschaft der Wissenschaften (Phil.-hist. Klasse),</u>&nbsp;1908. [<u>Poliorc.</u>] (Cited by Wescher's page, given in Schneider's margin.)</li>
+      <li><strong>Apollodorus Damascenus</strong>&nbsp;Mechanicus [Apollod.] ii A.D.&nbsp;<span className="greek">*poliorkhtika/,</span>&nbsp;Ed. R. Schneider,&nbsp;<u>Abhandlungen der G&ouml;ttinger Gesellschaft der Wissenschaften (Phil.-hist. Klasse),</u>&nbsp;1908. [<u>Poliorc.</u>] (Cited by Wescher&apos;s page, given in Schneider&apos;s margin.)</li>
       <li><strong>Apollodorus</strong>&nbsp;Lyricus [Apollod.Lyr.] Ed. T. Bergk,&nbsp;<u>PLG</u>&nbsp;iii p. 378.</li>
       <li><strong>Apollodorus Seleuciensis</strong>&nbsp;Stoicus [Apollod.<u>Stoic.</u>] ii B.C. Ed. H. von Arnim,&nbsp;<u>SVF</u>&nbsp;iii p. 259.</li>
       <li><strong>Apollonides</strong>&nbsp;Epigrammaticus [Apollonid.] i A.D. v.&nbsp;<u>Anthologia Graeca.</u></li>
@@ -168,10 +168,10 @@ const Authors = () => (
       <li><strong>Apollonius</strong>&nbsp;Paradoxographus [Apollon.] ii B.C. (?)&nbsp;<u>Mirabilia,</u>&nbsp;ed. O. Keller,&nbsp;<u>Rerum Naturalium Scriptores</u>&nbsp;i, Leipzig (T.) 1877, p. 43. [<u>Mir.</u>]</li>
       <li><strong>Apollonius Citiensis</strong>&nbsp;Medicus [Apollon.Cit.] i B.C. Ed. H. Sch&ouml;ne, Leipzig 1896.</li>
       <li><strong>Apollonius Dyscolus</strong>&nbsp;Grammaticus [A.D.] ii A.D. Ed. R. Schneider &amp; G. Uhlig, Leipzig 1878-1910.</li>
-      <li><u>Adv. = de Adverbiis;</u>&nbsp;cited by Schneider's page and line.</li>
-      <li><u>Conj. = de Conjunctionibus;</u>&nbsp;cited by Schneider's page and line.</li>
-      <li><u>Pron. = de Pronominibus;</u>&nbsp;cited by Schneider's page and line.</li>
-      <li><u>Synt. = de Syntaxi;</u>&nbsp;cited by Bekker's page and line, given in Uhlig's margin.</li>
+      <li><u>Adv. = de Adverbiis;</u>&nbsp;cited by Schneider&apos;s page and line.</li>
+      <li><u>Conj. = de Conjunctionibus;</u>&nbsp;cited by Schneider&apos;s page and line.</li>
+      <li><u>Pron. = de Pronominibus;</u>&nbsp;cited by Schneider&apos;s page and line.</li>
+      <li><u>Synt. = de Syntaxi;</u>&nbsp;cited by Bekker&apos;s page and line, given in Uhlig&apos;s margin.</li>
       <li><strong>Apollonius Pergaeus</strong>&nbsp;Geometra [Apollon.Perg.] iii/ii B.C.&nbsp;<u>Conica,</u>&nbsp;ed. J. L. Heiberg, Leipzig (T.) 1891. [<u>Con.</u>]</li>
       <li><strong>Apollonius</strong>&nbsp;Medicus [Apollon.] i A.D. Apud Galenum.</li>
       <li><strong>Apollonius Rhodius</strong>&nbsp;Epicus [A.R.] iii B.C. Ed. R. C. Seaton, Oxford (OCT).</li>

@@ -17,7 +17,7 @@ const ListOfAbbreviations = () => (
 	 been inserted in List V unless their alphabetical position in List I is different from that of the full
 	  name (e.g. A. = Aeschylus). List V also contains the expansion of all abbreviations used without
 	  explanation in List I. The names of authors are in general printed in roman type, the titles of their
-	  works (given in alphabetical order under the author's name) in italics, which are also used for the
+	  works (given in alphabetical order under the author&apos;s name) in italics, which are also used for the
 	   titles of collections and periodical publications.
     </p>
 
@@ -29,24 +29,24 @@ const ListOfAbbreviations = () => (
 	 margin of a later edition) the fact is stated. It will be understood that the reading adopted in the edition
 	  cited is not necessarily given (or referred to) in the Lexicon. For the convenience of readers a few editions
 	  of the fragments of individual authors have been named in the list, even when the remains of the author have
-	  been cited from the sources of the quotations. Where no abbreviation follows the author's name the full name
+	  been cited from the sources of the quotations. Where no abbreviation follows the author&apos;s name the full name
 	  is used in the Lexicon, and where no date is given it is to be understood that evidence to determine it is
 	   lacking. No attempt has in general been made to indicate which of the works attributed to an author are to
 	   be regarded as spurious.
     </p>
 
     <p>
-	In the description of the editions used ' OCT' is added to show that the work is one of the Oxford Classical Texts
+	In the description of the editions used &apos; OCT&apos; is added to show that the work is one of the Oxford Classical Texts
       {' '}
       <u>
 		(Scriptorum Classicorum Bibliotheca Oxoniensis)
       </u>
-      ; similarly 'T.' indicates the smaller Teubner Series
+      ; similarly &apos;T.&apos; indicates the smaller Teubner Series
       {' '}
       <u>
 		(Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana)
       </u>
-      , ' D.' the Didot editions, and 'Loeb' the Loeb Classical Library.
+      , &apos; D.&apos; the Didot editions, and &apos;Loeb&apos; the Loeb Classical Library.
     </p>
 
 

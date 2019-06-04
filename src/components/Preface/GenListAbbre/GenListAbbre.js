@@ -15,10 +15,10 @@ const GenListAbbre = () => (
       <ul>
         <li>(1) Abbreviations used in the Lexicon or in Lists I-IV, but not explained in those lists.</li>
         <li>(2) Abbreviations explained in List I but out of their alphabetical order. For all names of authors List I is to be consulted; the</li>
-        <li>note 'v. I' has been added only to names of works cited without an author's name.</li>
+        <li>note &apos;v. I&apos; has been added only to names of works cited without an author&apos;s name.</li>
         <li>(3) All abbreviations explained in Lists II-IV, with references to those lists.</li>
       </ul>
-      <p>It does not contain titles of works given in List I under the author's name or under Anonymus.</p>
+      <p>It does not contain titles of works given in List I under the author&apos;s name or under Anonymus.</p>
       <ul>
         <li>A. = Aeschylus</li>
         <li>

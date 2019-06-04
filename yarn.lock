@@ -8454,9 +8454,10 @@ react@^16.7.0:
     prop-types "^15.6.2"
     scheduler "^0.12.0"
 
-"reactstrap@https://github.com/reactstrap/reactstrap.git#master":
+reactstrap@^8.0.0:
   version "8.0.0"
-  resolved "https://github.com/reactstrap/reactstrap.git#718849992523079fa63cb0993cec225514aa0cbb"
+  resolved "https://registry.yarnpkg.com/reactstrap/-/reactstrap-8.0.0.tgz#db24d0127e58db89baa743dc660b65f611fe9b84"
+  integrity sha512-Rd7MyaFnZZXe1lbeBlgkxzyv+u7Z/ots0yYoO6ijT7/0uGsNwB1ch2h2t7Tf6u05jpbTFlLD+lyBEER0eibcQw==
   dependencies:
     "@babel/runtime" "^7.2.0"
     classnames "^2.2.3"
