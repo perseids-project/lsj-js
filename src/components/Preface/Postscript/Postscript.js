@@ -121,7 +121,7 @@ const Postscript = () => (
       <a name="footnote-1" href="#link-footnote-1">1.</a>
       {' '}Greene's notebooks (see the 1925 Preface, p. x) are in the Bodleian.
     </p>
-    
+
     <p className="float-right">
 	CLARENDON PRESS, OXFORD. June, 1940.
     </p>

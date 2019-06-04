@@ -30,7 +30,9 @@
       ],
       "rules": {
         "react/jsx-one-expression-per-line": "off",
-        "max-len": "off"
+        "max-len": "off",
+        "no-tabs": "off",
+         "no-mixed-spaces-and-tabs": "off"
       }
     }
   ]
