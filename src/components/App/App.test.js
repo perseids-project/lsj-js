@@ -23,6 +23,6 @@ it('looks up a word', () => {
   lookupNode.value = 'plinthos';
   fireEvent.change(lookupNode);
 
-  expect(window.location.pathname).toEqual('/plinthos');
+  expect(window.location.pathname).toEqual('/l/plinthos');
   expect(getByText('πλίνθος, ἡ, brick')).toBeInTheDocument();
 });
