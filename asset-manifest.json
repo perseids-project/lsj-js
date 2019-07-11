@@ -1,17 +1,19 @@
 {
-  "main.css": "/lsj-js/static/css/main.75322932.chunk.css",
-  "main.js": "/lsj-js/static/js/main.199d4f0f.chunk.js",
-  "main.js.map": "/lsj-js/static/js/main.199d4f0f.chunk.js.map",
-  "static/js/1.8536ce69.chunk.js": "/lsj-js/static/js/1.8536ce69.chunk.js",
-  "static/js/1.8536ce69.chunk.js.map": "/lsj-js/static/js/1.8536ce69.chunk.js.map",
-  "static/css/2.dccb6878.chunk.css": "/lsj-js/static/css/2.dccb6878.chunk.css",
-  "static/js/2.160bf63c.chunk.js": "/lsj-js/static/js/2.160bf63c.chunk.js",
-  "static/js/2.160bf63c.chunk.js.map": "/lsj-js/static/js/2.160bf63c.chunk.js.map",
-  "runtime~main.js": "/lsj-js/static/js/runtime~main.ce04abb1.js",
-  "runtime~main.js.map": "/lsj-js/static/js/runtime~main.ce04abb1.js.map",
-  "static/css/main.75322932.chunk.css.map": "/lsj-js/static/css/main.75322932.chunk.css.map",
-  "static/css/2.dccb6878.chunk.css.map": "/lsj-js/static/css/2.dccb6878.chunk.css.map",
-  "index.html": "/lsj-js/index.html",
-  "precache-manifest.659411b39b07e5b0117a73304311f34e.js": "/lsj-js/precache-manifest.659411b39b07e5b0117a73304311f34e.js",
-  "service-worker.js": "/lsj-js/service-worker.js"
+  "files": {
+    "main.css": "/lsj-js/static/css/main.fc35351d.chunk.css",
+    "main.js": "/lsj-js/static/js/main.3edbd3a0.chunk.js",
+    "main.js.map": "/lsj-js/static/js/main.3edbd3a0.chunk.js.map",
+    "runtime~main.js": "/lsj-js/static/js/runtime~main.5f05b0ba.js",
+    "runtime~main.js.map": "/lsj-js/static/js/runtime~main.5f05b0ba.js.map",
+    "static/css/2.bc649c47.chunk.css": "/lsj-js/static/css/2.bc649c47.chunk.css",
+    "static/js/2.289b6dae.chunk.js": "/lsj-js/static/js/2.289b6dae.chunk.js",
+    "static/js/2.289b6dae.chunk.js.map": "/lsj-js/static/js/2.289b6dae.chunk.js.map",
+    "static/js/3.752c0250.chunk.js": "/lsj-js/static/js/3.752c0250.chunk.js",
+    "static/js/3.752c0250.chunk.js.map": "/lsj-js/static/js/3.752c0250.chunk.js.map",
+    "index.html": "/lsj-js/index.html",
+    "precache-manifest.c6da725823ef78ac1ba99abeff7e866d.js": "/lsj-js/precache-manifest.c6da725823ef78ac1ba99abeff7e866d.js",
+    "service-worker.js": "/lsj-js/service-worker.js",
+    "static/css/2.bc649c47.chunk.css.map": "/lsj-js/static/css/2.bc649c47.chunk.css.map",
+    "static/css/main.fc35351d.chunk.css.map": "/lsj-js/static/css/main.fc35351d.chunk.css.map"
+  }
 }
