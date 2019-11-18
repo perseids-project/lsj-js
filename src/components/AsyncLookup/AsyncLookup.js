@@ -16,7 +16,7 @@ const cacheDictionary = (loaded) => {
 };
 
 const lookupDictionary = () => (
-  localForage.getItem(DICTIONARY_VERSION).then(d => (
+  localForage.getItem(DICTIONARY_VERSION).then((d) => (
     { success: !!d, dictionary: d }
   )).catch(() => (
     { success: false }

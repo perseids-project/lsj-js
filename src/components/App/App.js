@@ -7,7 +7,7 @@ import 'perseids-react-components/build/css/index.css';
 import AsyncLookup from '../AsyncLookup';
 
 const App = () => (
-  <React.Fragment>
+  <>
     <PerseidsHeader>
       LSJ Lexicon
     </PerseidsHeader>
@@ -29,7 +29,7 @@ const App = () => (
       github="https://github.com/perseids-project/lsj-js"
       report="https://github.com/perseids-project/lsj-js/issues"
     />
-  </React.Fragment>
+  </>
 );
 
 export default App;
