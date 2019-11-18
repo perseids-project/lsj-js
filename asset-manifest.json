@@ -1,19 +1,26 @@
 {
   "files": {
     "main.css": "/lsj-js/static/css/main.fc35351d.chunk.css",
-    "main.js": "/lsj-js/static/js/main.3edbd3a0.chunk.js",
-    "main.js.map": "/lsj-js/static/js/main.3edbd3a0.chunk.js.map",
-    "runtime~main.js": "/lsj-js/static/js/runtime~main.5f05b0ba.js",
-    "runtime~main.js.map": "/lsj-js/static/js/runtime~main.5f05b0ba.js.map",
-    "static/css/2.bc649c47.chunk.css": "/lsj-js/static/css/2.bc649c47.chunk.css",
-    "static/js/2.289b6dae.chunk.js": "/lsj-js/static/js/2.289b6dae.chunk.js",
-    "static/js/2.289b6dae.chunk.js.map": "/lsj-js/static/js/2.289b6dae.chunk.js.map",
-    "static/js/3.752c0250.chunk.js": "/lsj-js/static/js/3.752c0250.chunk.js",
-    "static/js/3.752c0250.chunk.js.map": "/lsj-js/static/js/3.752c0250.chunk.js.map",
+    "main.js": "/lsj-js/static/js/main.34c4444f.chunk.js",
+    "main.js.map": "/lsj-js/static/js/main.34c4444f.chunk.js.map",
+    "runtime-main.js": "/lsj-js/static/js/runtime-main.65d5e60c.js",
+    "runtime-main.js.map": "/lsj-js/static/js/runtime-main.65d5e60c.js.map",
+    "static/css/2.fbee80ab.chunk.css": "/lsj-js/static/css/2.fbee80ab.chunk.css",
+    "static/js/2.541e26d5.chunk.js": "/lsj-js/static/js/2.541e26d5.chunk.js",
+    "static/js/2.541e26d5.chunk.js.map": "/lsj-js/static/js/2.541e26d5.chunk.js.map",
+    "static/js/3.a0e3a2c6.chunk.js": "/lsj-js/static/js/3.a0e3a2c6.chunk.js",
+    "static/js/3.a0e3a2c6.chunk.js.map": "/lsj-js/static/js/3.a0e3a2c6.chunk.js.map",
     "index.html": "/lsj-js/index.html",
-    "precache-manifest.c6da725823ef78ac1ba99abeff7e866d.js": "/lsj-js/precache-manifest.c6da725823ef78ac1ba99abeff7e866d.js",
+    "precache-manifest.03640615e9bf4da4f33bdfec4c83e021.js": "/lsj-js/precache-manifest.03640615e9bf4da4f33bdfec4c83e021.js",
     "service-worker.js": "/lsj-js/service-worker.js",
-    "static/css/2.bc649c47.chunk.css.map": "/lsj-js/static/css/2.bc649c47.chunk.css.map",
+    "static/css/2.fbee80ab.chunk.css.map": "/lsj-js/static/css/2.fbee80ab.chunk.css.map",
     "static/css/main.fc35351d.chunk.css.map": "/lsj-js/static/css/main.fc35351d.chunk.css.map"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65d5e60c.js",
+    "static/css/2.fbee80ab.chunk.css",
+    "static/js/2.541e26d5.chunk.js",
+    "static/css/main.fc35351d.chunk.css",
+    "static/js/main.34c4444f.chunk.js"
+  ]
 }
