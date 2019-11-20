@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
+import I18n from '../I18n';
 import Parser from '../../lib/Parser';
 
 const dictionaryPropType = PropTypes.shape({
@@ -18,6 +19,10 @@ const matchPropType = PropTypes.shape({
   params: PropTypes.shape({
     word: PropTypes.string,
   }).isRequired,
+});
+
+const locationPropType = PropTypes.shape({
+  pathname: PropTypes.string.isRequired,
 });
 
 class Lookup extends Component {
@@ -45,13 +50,22 @@ class Lookup extends Component {
   }
 
   render() {
-    const { match } = this.props;
+    const { match, location } = this.props;
     const word = match.params.word || '';
 
     return (
       <div className="mt-4">
-        {/* eslint-disable-next-line jsx-a11y/no-autofocus */}
-        <input className="form-control mb-4" autoFocus type="text" value={word} onChange={this.handleChange} placeholder="Enter word..." aria-label="lookup" />
+        <input
+          className="form-control mb-4"
+          /* eslint-disable-next-line jsx-a11y/no-autofocus */
+          autoFocus
+          type="text"
+          value={word}
+          onChange={this.handleChange}
+          placeholder={I18n.getTranslation(location, 'input.placeholder')}
+          aria-label="lookup"
+        />
+
         {this.renderEntries(word)}
       </div>
     );
@@ -62,6 +76,7 @@ Lookup.propTypes = {
   dictionary: dictionaryPropType.isRequired,
   history: historyPropType.isRequired,
   match: matchPropType.isRequired,
+  location: locationPropType.isRequired,
 };
 
 export default Lookup;

@@ -16,7 +16,7 @@ it('renders title', () => {
 
 it('looks up a word', () => {
   const { getByText, getByPlaceholderText } = render(<App />);
-  const lookupNode = getByPlaceholderText('Enter word...');
+  const lookupNode = getByPlaceholderText('Enter word ...');
 
   expect(window.location.pathname).toEqual('/');
 
