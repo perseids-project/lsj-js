@@ -11,12 +11,15 @@ it('renders without crashing', () => {
   };
   const history = { push: () => { } };
   const match = { params: { word: 'hello' } };
+  const location = { pathname: '/' };
+
   const div = window.document.createElement('div');
   render(
     <Lookup
       dictionary={dictionary}
       history={history}
       match={match}
+      location={location}
     />,
     div,
   );

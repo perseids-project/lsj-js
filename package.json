@@ -18,6 +18,7 @@
     "react-dom": "^16.12.0",
     "react-loadable": "^5.4.0",
     "react-router-dom": "^5.1.2",
+    "react-router-i18n": "^0.1.2",
     "react-scripts": "3.2.0"
   },
   "scripts": {
