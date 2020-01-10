@@ -1,5 +1,4 @@
-import React from 'react';
-import Loadable from 'react-loadable';
+import React, { Component } from 'react';
 import localForage from 'localforage';
 
 import Loading from '../Loading';
@@ -10,37 +9,49 @@ const DICTIONARY_VERSION = 'dictionary-0.0.3';
 const cacheDictionary = (loaded) => {
   const dictionary = loaded.default;
 
-  localForage.clear().then(() => localForage.setItem(DICTIONARY_VERSION, dictionary));
+  localForage.setItem(DICTIONARY_VERSION, dictionary);
 
   return dictionary;
 };
 
-const lookupDictionary = () => (
-  localForage.getItem(DICTIONARY_VERSION).then((d) => (
-    { success: !!d, dictionary: d }
-  )).catch(() => (
-    { success: false }
-  ))
-);
+class AsyncLookup extends Component {
+  constructor(props) {
+    super(props);
 
-const WaitForDownload = Loadable({
-  loader: () => import('../../lib/Dictionary').then(cacheDictionary),
-  loading: () => <Loading text="Downloading dictionary..." />,
-  render(dictionary, props) {
-    return <Lookup {...props} dictionary={dictionary} />;
-  },
-});
+    this.state = {
+      loadingText: 'Loading dictionary from cache...',
+      dictionary: null,
+    };
+  }
 
-const AsyncLookup = Loadable({
-  loader: lookupDictionary,
-  loading: () => <Loading text="Loading dictionary from cache..." />,
-  render(loaded, props) {
-    if (loaded.success) {
-      return <Lookup {...props} dictionary={loaded.dictionary} />;
+  componentDidMount() {
+    localForage.getItem(DICTIONARY_VERSION).then((dictionary) => {
+      if (dictionary) {
+        this.setState({ dictionary });
+      } else {
+        this.setState({ loadingText: 'Downloading dictionary...' }, this.asyncImport);
+      }
+    });
+  }
+
+  asyncImport() {
+    import('../../lib/Dictionary').then(cacheDictionary).then((dictionary) => {
+      this.setState({ dictionary });
+    });
+  }
+
+  render() {
+    const {
+      loadingText,
+      dictionary,
+    } = this.state;
+
+    if (dictionary === null) {
+      return <Loading text={loadingText} />;
     }
 
-    return <WaitForDownload {...props} />;
-  },
-});
+    return <Lookup {...this.props} dictionary={dictionary} />;
+  }
+}
 
 export default AsyncLookup;

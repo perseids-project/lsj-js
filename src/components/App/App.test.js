@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, fireEvent } from '@testing-library/react';
+import { render, fireEvent, waitForElement } from '@testing-library/react';
 
 import App from './App';
 
@@ -14,9 +14,9 @@ it('renders title', () => {
   expect(getByText('Liddell-Scott-Jones Greek-English Lexicon')).toBeInTheDocument();
 });
 
-it('looks up a word', () => {
+it('looks up a word', async () => {
   const { getByText, getByPlaceholderText } = render(<App />);
-  const lookupNode = getByPlaceholderText('Enter word ...');
+  const lookupNode = await waitForElement(() => getByPlaceholderText('Enter word ...'));
 
   expect(window.location.pathname).toEqual('/');
 
