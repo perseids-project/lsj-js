@@ -1,0 +1,46 @@
+name: deploy
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Run tests
+        run: yarn test --coverage
+        env:
+          CI: true
+
+      - name: Build GitHub
+        run: yarn build
+
+      - name: Deploy GitHub
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ github.token }}
+          BRANCH: gh-pages
+          FOLDER: build
+
+      - name: Build Perseids
+        run: yarn build
+        env:
+          PUBLIC_URL: /lsj
+
+      - name: Deploy Perseids
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ github.token }}
+          BRANCH: perseids-build
+          FOLDER: build

@@ -1,0 +1,34 @@
+name: test
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Lint code
+        run: yarn lint
+
+      # Ideally yarn audit would be part of the CI flow
+      # but currently there is too much noise
+      # See e.g. https://github.com/facebook/create-react-app/issues/8529
+      # - name: Audit dependencies
+      #   - run: yarn audit
+
+      - name: Run tests
+        run: yarn test --coverage
+        env:
+          CI: true
+
+      - name: Build
+        run: yarn build

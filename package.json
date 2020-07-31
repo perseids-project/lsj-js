@@ -33,7 +33,7 @@
     "cleanup": "rm -rf node_modules/gh-pages/.cache",
     "build-dictionary": "node ./scripts/build-dictionary.js",
     "start": "react-app-rewired start",
-    "build": "react-app-rewired --max_old_space_size=4096 build && cp build/index.html build/404.html",
+    "build": "react-app-rewired --max-old-space-size=8192 build && cp build/index.html build/404.html",
     "lint": "eslint --ext=js --ext=jsx .",
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-app-rewired eject"
